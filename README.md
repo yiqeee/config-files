@@ -18,6 +18,9 @@ or just move it
 mv kitty.conf ~/.config/kitty/kitty.conf
 ```
 
+
+
+
 ## sddm greeter theme
 
 How to install the sddm theme:
