@@ -33,11 +33,10 @@ tar -xvf sddm-theme.tar.gz
 sudo mv TerminalStyleLogin /usr/share/sddm/themes/
 ```
 
-### 4. configure the greeter config
+### 4. configure the greeter config // feel free to use vim, nvim or gedit
 ```
 sudo nano /etc/sddm.conf
 ```
-
 _and add the following line:_
 ```
 [Theme]
@@ -50,5 +49,5 @@ Current=TerminalStyleLogin
 sudo systemctl restart sddm.service
 ```
 
-
-! automation script coming soon !
+> [!NOTE]
+> if sddm fails to start, switch to a tty and fix `/etc/sddm.conf`
