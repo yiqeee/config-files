@@ -51,4 +51,4 @@ sudo systemctl restart sddm.service
 ```
 
 
-automation script coming soon
+! automation script coming soon !
