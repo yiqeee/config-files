@@ -45,7 +45,7 @@ _and add the following line:_
 Current=TerminalStyleLogin
 ```
 
-### restart sddm service via
+### 5. restart sddm service via
 ```
 sudo systemctl restart sddm.service
 ```
